@@ -1,4 +1,3 @@
-// Alright so I made a code for caculator for C++. Hope you like it! 
 
 # include <iostream>
 using namespace std; // we must include the namespace std or else the code we type will not working
