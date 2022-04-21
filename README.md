@@ -1,20 +1,14 @@
 
 # include <iostream>
-using namespace std; // we must include the namespace std or else the code we type will not working
-
+using namespace std; 
 int main() {
 
   char op;
-  float num1, num2; // we have to use num as it represet number but we have to write it in short form
-
-  cout << "Enter operator: +, -, *, /: ";
+  float num1, num2; 
   cin >> op;
 
   cout << "Enter two operands: ";
   cin >> num1 >> num2;
-  
-// We here use switch to just allow us to kill  the block of code example when there is the same number the code label will be kill 
-  
   switch(op) {
 
     case '+':
